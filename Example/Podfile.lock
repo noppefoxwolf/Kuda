@@ -1,0 +1,27 @@
+PODS:
+  - Kuda (0.1.0)
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - Kuda (from `../`)
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  Kuda:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kuda: 7d9850c1c400a039457f771c6d975af9c57dcf6c
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 51f0bcdf83bb6509cf7898175a18993e1d58bc52
+
+COCOAPODS: 1.9.1

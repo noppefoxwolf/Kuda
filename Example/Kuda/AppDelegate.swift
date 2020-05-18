@@ -7,15 +7,26 @@
 //
 
 import UIKit
+import Kuda
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Kuda.install(debuggerItems: [
+            CustomSuccessDebugItem(),
+            CustomFailureDebugItem(),
+            UIDebugItem({ UISwitch() }),
+            UIDebugItem({ ExampleViewController(rootView: ExampleView()) }),
+            ViewControllerDebugItem({ ExampleViewController(rootView: ExampleView()) }),
+            CaseSelectableDebugItem(currentValue: Animal.dog, didSelected: { print($0) }),
+            InfoDebugItem(),
+            ExitDebugItem(),
+        ])
         return true
     }
 
