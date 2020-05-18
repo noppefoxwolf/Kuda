@@ -5,9 +5,20 @@
 [![License](https://img.shields.io/cocoapods/l/Kuda.svg?style=flat)](https://cocoapods.org/pods/Kuda)
 [![Platform](https://img.shields.io/cocoapods/p/Kuda.svg?style=flat)](https://cocoapods.org/pods/Kuda)
 
-## Example
+## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```swift
+Kuda.install(debuggerItems: [
+  CustomSuccessDebugItem(),
+  CustomFailureDebugItem(),
+  UIDebugItem({ UISwitch() }),
+  UIDebugItem({ ExampleViewController(rootView: ExampleView()) }),
+  ViewControllerDebugItem({ ExampleViewController(rootView: ExampleView()) }),
+  CaseSelectableDebugItem(currentValue: Animal.dog, didSelected: { print($0) }),
+  InfoDebugItem(),
+  ExitDebugItem(),
+])
+```
 
 ## Requirements
 
