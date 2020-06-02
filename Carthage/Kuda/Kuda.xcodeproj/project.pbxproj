@@ -7,39 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373CF1A62486A031006126B9 /* Kuda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1862486A031006126B9 /* Kuda.swift */; };
+		373CF1A72486A031006126B9 /* ListItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1882486A031006126B9 /* ListItemCollectionViewCell.swift */; };
+		373CF1A82486A031006126B9 /* InAppDebuggerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1892486A031006126B9 /* InAppDebuggerPresenter.swift */; };
+		373CF1A92486A031006126B9 /* PinSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF18A2486A031006126B9 /* PinSupplementaryView.swift */; };
+		373CF1AA2486A031006126B9 /* InAppDebuggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF18B2486A031006126B9 /* InAppDebuggerViewController.swift */; };
+		373CF1AB2486A031006126B9 /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF18C2486A031006126B9 /* ListLayout.swift */; };
+		373CF1AC2486A031006126B9 /* InAppDebugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF18D2486A031006126B9 /* InAppDebugger.swift */; };
+		373CF1AD2486A031006126B9 /* InAppDebuggerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF18E2486A031006126B9 /* InAppDebuggerInteractor.swift */; };
+		373CF1AE2486A031006126B9 /* HeaderSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF18F2486A031006126B9 /* HeaderSupplementaryView.swift */; };
+		373CF1AF2486A031006126B9 /* InfoDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1902486A031006126B9 /* InfoDebugItem.swift */; };
+		373CF1B02486A031006126B9 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1912486A031006126B9 /* Application.swift */; };
+		373CF1B12486A031006126B9 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1922486A031006126B9 /* Error.swift */; };
+		373CF1B22486A031006126B9 /* CaseSelectableDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1942486A031006126B9 /* CaseSelectableDebugItem.swift */; };
+		373CF1B32486A031006126B9 /* UIDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1952486A031006126B9 /* UIDebugItem.swift */; };
+		373CF1B42486A031006126B9 /* ExitDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1962486A031006126B9 /* ExitDebugItem.swift */; };
+		373CF1B52486A031006126B9 /* FeedbackDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1972486A031006126B9 /* FeedbackDebugItem.swift */; };
+		373CF1B62486A031006126B9 /* ViewControllerDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1982486A031006126B9 /* ViewControllerDebugItem.swift */; };
+		373CF1B72486A031006126B9 /* InfoDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1992486A031006126B9 /* InfoDebugItem.swift */; };
+		373CF1B82486A031006126B9 /* CaseSelectableDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF19A2486A031006126B9 /* CaseSelectableDebugItem.swift */; };
+		373CF1B92486A031006126B9 /* DebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF19C2486A031006126B9 /* DebugItem.swift */; };
+		373CF1BA2486A031006126B9 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF19D2486A031006126B9 /* Error.swift */; };
+		373CF1BB2486A031006126B9 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF19E2486A031006126B9 /* Application.swift */; };
+		373CF1BC2486A031006126B9 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF19F2486A031006126B9 /* ContainerView.swift */; };
+		373CF1BD2486A031006126B9 /* UIDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1A02486A031006126B9 /* UIDebugItem.swift */; };
+		373CF1BE2486A032006126B9 /* ViewControllerDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1A12486A031006126B9 /* ViewControllerDebugItem.swift */; };
+		373CF1BF2486A032006126B9 /* DebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1A22486A031006126B9 /* DebugItem.swift */; };
+		373CF1C02486A032006126B9 /* ExitDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1A32486A031006126B9 /* ExitDebugItem.swift */; };
+		373CF1C12486A032006126B9 /* FeedbackDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1A42486A031006126B9 /* FeedbackDebugItem.swift */; };
+		373CF1C22486A032006126B9 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CF1A52486A031006126B9 /* ContainerView.swift */; };
 		37C7D0112472F52900B6F8C6 /* Kuda.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C7D00F2472F52900B6F8C6 /* Kuda.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37C7D0272472F58C00B6F8C6 /* InAppDebuggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D0182472F58B00B6F8C6 /* InAppDebuggerViewController.swift */; };
-		37C7D0282472F58C00B6F8C6 /* InAppDebugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D0192472F58B00B6F8C6 /* InAppDebugger.swift */; };
-		37C7D0292472F58C00B6F8C6 /* CaseSelectableDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D01B2472F58C00B6F8C6 /* CaseSelectableDebugItem.swift */; };
-		37C7D02A2472F58C00B6F8C6 /* UIDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D01C2472F58C00B6F8C6 /* UIDebugItem.swift */; };
-		37C7D02B2472F58C00B6F8C6 /* ExitDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D01D2472F58C00B6F8C6 /* ExitDebugItem.swift */; };
-		37C7D02C2472F58C00B6F8C6 /* FeedbackDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D01E2472F58C00B6F8C6 /* FeedbackDebugItem.swift */; };
-		37C7D02D2472F58C00B6F8C6 /* ViewControllerDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D01F2472F58C00B6F8C6 /* ViewControllerDebugItem.swift */; };
-		37C7D02E2472F58C00B6F8C6 /* InfoDebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D0202472F58C00B6F8C6 /* InfoDebugItem.swift */; };
-		37C7D02F2472F58C00B6F8C6 /* DebugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D0222472F58C00B6F8C6 /* DebugItem.swift */; };
-		37C7D0302472F58C00B6F8C6 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D0232472F58C00B6F8C6 /* Error.swift */; };
-		37C7D0312472F58C00B6F8C6 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D0242472F58C00B6F8C6 /* Application.swift */; };
-		37C7D0322472F58C00B6F8C6 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D0252472F58C00B6F8C6 /* ContainerView.swift */; };
-		37C7D0332472F58C00B6F8C6 /* Kuda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7D0262472F58C00B6F8C6 /* Kuda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		373CF1862486A031006126B9 /* Kuda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Kuda.swift; path = ../../../Kuda/Classes/Kuda.swift; sourceTree = "<group>"; };
+		373CF1882486A031006126B9 /* ListItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		373CF1892486A031006126B9 /* InAppDebuggerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppDebuggerPresenter.swift; sourceTree = "<group>"; };
+		373CF18A2486A031006126B9 /* PinSupplementaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinSupplementaryView.swift; sourceTree = "<group>"; };
+		373CF18B2486A031006126B9 /* InAppDebuggerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppDebuggerViewController.swift; sourceTree = "<group>"; };
+		373CF18C2486A031006126B9 /* ListLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
+		373CF18D2486A031006126B9 /* InAppDebugger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppDebugger.swift; sourceTree = "<group>"; };
+		373CF18E2486A031006126B9 /* InAppDebuggerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppDebuggerInteractor.swift; sourceTree = "<group>"; };
+		373CF18F2486A031006126B9 /* HeaderSupplementaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderSupplementaryView.swift; sourceTree = "<group>"; };
+		373CF1902486A031006126B9 /* InfoDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoDebugItem.swift; path = ../../../Kuda/Classes/Builtin/InfoDebugItem.swift; sourceTree = "<group>"; };
+		373CF1912486A031006126B9 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Application.swift; path = ../../../Kuda/Classes/Kuda/Application.swift; sourceTree = "<group>"; };
+		373CF1922486A031006126B9 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Error.swift; path = ../../../Kuda/Classes/Kuda/Error.swift; sourceTree = "<group>"; };
+		373CF1942486A031006126B9 /* CaseSelectableDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseSelectableDebugItem.swift; sourceTree = "<group>"; };
+		373CF1952486A031006126B9 /* UIDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDebugItem.swift; sourceTree = "<group>"; };
+		373CF1962486A031006126B9 /* ExitDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExitDebugItem.swift; sourceTree = "<group>"; };
+		373CF1972486A031006126B9 /* FeedbackDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackDebugItem.swift; sourceTree = "<group>"; };
+		373CF1982486A031006126B9 /* ViewControllerDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDebugItem.swift; sourceTree = "<group>"; };
+		373CF1992486A031006126B9 /* InfoDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDebugItem.swift; sourceTree = "<group>"; };
+		373CF19A2486A031006126B9 /* CaseSelectableDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CaseSelectableDebugItem.swift; path = ../../../Kuda/Classes/Builtin/CaseSelectableDebugItem.swift; sourceTree = "<group>"; };
+		373CF19C2486A031006126B9 /* DebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugItem.swift; sourceTree = "<group>"; };
+		373CF19D2486A031006126B9 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		373CF19E2486A031006126B9 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		373CF19F2486A031006126B9 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		373CF1A02486A031006126B9 /* UIDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIDebugItem.swift; path = ../../../Kuda/Classes/Builtin/UIDebugItem.swift; sourceTree = "<group>"; };
+		373CF1A12486A031006126B9 /* ViewControllerDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerDebugItem.swift; path = ../../../Kuda/Classes/Builtin/ViewControllerDebugItem.swift; sourceTree = "<group>"; };
+		373CF1A22486A031006126B9 /* DebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DebugItem.swift; path = ../../../Kuda/Classes/Kuda/DebugItem.swift; sourceTree = "<group>"; };
+		373CF1A32486A031006126B9 /* ExitDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExitDebugItem.swift; path = ../../../Kuda/Classes/Builtin/ExitDebugItem.swift; sourceTree = "<group>"; };
+		373CF1A42486A031006126B9 /* FeedbackDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedbackDebugItem.swift; path = ../../../Kuda/Classes/Builtin/FeedbackDebugItem.swift; sourceTree = "<group>"; };
+		373CF1A52486A031006126B9 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContainerView.swift; path = ../../../Kuda/Classes/Kuda/ContainerView.swift; sourceTree = "<group>"; };
 		37C7D00C2472F52900B6F8C6 /* Kuda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kuda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C7D00F2472F52900B6F8C6 /* Kuda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kuda.h; sourceTree = "<group>"; };
 		37C7D0102472F52900B6F8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37C7D0182472F58B00B6F8C6 /* InAppDebuggerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppDebuggerViewController.swift; sourceTree = "<group>"; };
-		37C7D0192472F58B00B6F8C6 /* InAppDebugger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppDebugger.swift; sourceTree = "<group>"; };
-		37C7D01B2472F58C00B6F8C6 /* CaseSelectableDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseSelectableDebugItem.swift; sourceTree = "<group>"; };
-		37C7D01C2472F58C00B6F8C6 /* UIDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDebugItem.swift; sourceTree = "<group>"; };
-		37C7D01D2472F58C00B6F8C6 /* ExitDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExitDebugItem.swift; sourceTree = "<group>"; };
-		37C7D01E2472F58C00B6F8C6 /* FeedbackDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackDebugItem.swift; sourceTree = "<group>"; };
-		37C7D01F2472F58C00B6F8C6 /* ViewControllerDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDebugItem.swift; sourceTree = "<group>"; };
-		37C7D0202472F58C00B6F8C6 /* InfoDebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDebugItem.swift; sourceTree = "<group>"; };
-		37C7D0222472F58C00B6F8C6 /* DebugItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugItem.swift; sourceTree = "<group>"; };
-		37C7D0232472F58C00B6F8C6 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
-		37C7D0242472F58C00B6F8C6 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
-		37C7D0252472F58C00B6F8C6 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
-		37C7D0262472F58C00B6F8C6 /* Kuda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Kuda.swift; path = ../../../Kuda/Classes/Kuda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +85,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		373CF1872486A031006126B9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				373CF1882486A031006126B9 /* ListItemCollectionViewCell.swift */,
+				373CF1892486A031006126B9 /* InAppDebuggerPresenter.swift */,
+				373CF18A2486A031006126B9 /* PinSupplementaryView.swift */,
+				373CF18B2486A031006126B9 /* InAppDebuggerViewController.swift */,
+				373CF18C2486A031006126B9 /* ListLayout.swift */,
+				373CF18D2486A031006126B9 /* InAppDebugger.swift */,
+				373CF18E2486A031006126B9 /* InAppDebuggerInteractor.swift */,
+				373CF18F2486A031006126B9 /* HeaderSupplementaryView.swift */,
+			);
+			name = UI;
+			path = ../../../Kuda/Classes/UI;
+			sourceTree = "<group>";
+		};
+		373CF1932486A031006126B9 /* Builtin */ = {
+			isa = PBXGroup;
+			children = (
+				373CF1942486A031006126B9 /* CaseSelectableDebugItem.swift */,
+				373CF1952486A031006126B9 /* UIDebugItem.swift */,
+				373CF1962486A031006126B9 /* ExitDebugItem.swift */,
+				373CF1972486A031006126B9 /* FeedbackDebugItem.swift */,
+				373CF1982486A031006126B9 /* ViewControllerDebugItem.swift */,
+				373CF1992486A031006126B9 /* InfoDebugItem.swift */,
+			);
+			name = Builtin;
+			path = ../../../Kuda/Classes/Builtin;
+			sourceTree = "<group>";
+		};
+		373CF19B2486A031006126B9 /* Kuda */ = {
+			isa = PBXGroup;
+			children = (
+				373CF19C2486A031006126B9 /* DebugItem.swift */,
+				373CF19D2486A031006126B9 /* Error.swift */,
+				373CF19E2486A031006126B9 /* Application.swift */,
+				373CF19F2486A031006126B9 /* ContainerView.swift */,
+			);
+			name = Kuda;
+			path = ../../../Kuda/Classes/Kuda;
+			sourceTree = "<group>";
+		};
 		37C7D0022472F52900B6F8C6 = {
 			isa = PBXGroup;
 			children = (
@@ -72,50 +146,24 @@
 		37C7D00E2472F52900B6F8C6 /* Kuda */ = {
 			isa = PBXGroup;
 			children = (
-				37C7D01A2472F58C00B6F8C6 /* Builtin */,
-				37C7D0212472F58C00B6F8C6 /* Kuda */,
-				37C7D0262472F58C00B6F8C6 /* Kuda.swift */,
-				37C7D0172472F58B00B6F8C6 /* UI */,
+				373CF1912486A031006126B9 /* Application.swift */,
+				373CF1932486A031006126B9 /* Builtin */,
+				373CF19A2486A031006126B9 /* CaseSelectableDebugItem.swift */,
+				373CF1A52486A031006126B9 /* ContainerView.swift */,
+				373CF1A22486A031006126B9 /* DebugItem.swift */,
+				373CF1922486A031006126B9 /* Error.swift */,
+				373CF1A32486A031006126B9 /* ExitDebugItem.swift */,
+				373CF1A42486A031006126B9 /* FeedbackDebugItem.swift */,
+				373CF1902486A031006126B9 /* InfoDebugItem.swift */,
+				373CF19B2486A031006126B9 /* Kuda */,
+				373CF1862486A031006126B9 /* Kuda.swift */,
+				373CF1872486A031006126B9 /* UI */,
+				373CF1A02486A031006126B9 /* UIDebugItem.swift */,
+				373CF1A12486A031006126B9 /* ViewControllerDebugItem.swift */,
 				37C7D00F2472F52900B6F8C6 /* Kuda.h */,
 				37C7D0102472F52900B6F8C6 /* Info.plist */,
 			);
 			path = Kuda;
-			sourceTree = "<group>";
-		};
-		37C7D0172472F58B00B6F8C6 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				37C7D0182472F58B00B6F8C6 /* InAppDebuggerViewController.swift */,
-				37C7D0192472F58B00B6F8C6 /* InAppDebugger.swift */,
-			);
-			name = UI;
-			path = ../../../Kuda/Classes/UI;
-			sourceTree = "<group>";
-		};
-		37C7D01A2472F58C00B6F8C6 /* Builtin */ = {
-			isa = PBXGroup;
-			children = (
-				37C7D01B2472F58C00B6F8C6 /* CaseSelectableDebugItem.swift */,
-				37C7D01C2472F58C00B6F8C6 /* UIDebugItem.swift */,
-				37C7D01D2472F58C00B6F8C6 /* ExitDebugItem.swift */,
-				37C7D01E2472F58C00B6F8C6 /* FeedbackDebugItem.swift */,
-				37C7D01F2472F58C00B6F8C6 /* ViewControllerDebugItem.swift */,
-				37C7D0202472F58C00B6F8C6 /* InfoDebugItem.swift */,
-			);
-			name = Builtin;
-			path = ../../../Kuda/Classes/Builtin;
-			sourceTree = "<group>";
-		};
-		37C7D0212472F58C00B6F8C6 /* Kuda */ = {
-			isa = PBXGroup;
-			children = (
-				37C7D0222472F58C00B6F8C6 /* DebugItem.swift */,
-				37C7D0232472F58C00B6F8C6 /* Error.swift */,
-				37C7D0242472F58C00B6F8C6 /* Application.swift */,
-				37C7D0252472F58C00B6F8C6 /* ContainerView.swift */,
-			);
-			name = Kuda;
-			path = ../../../Kuda/Classes/Kuda;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +209,7 @@
 				TargetAttributes = {
 					37C7D00B2472F52900B6F8C6 = {
 						CreatedOnToolsVersion = 11.4;
-						LastSwiftMigration = 1140;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -198,19 +246,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37C7D02E2472F58C00B6F8C6 /* InfoDebugItem.swift in Sources */,
-				37C7D02A2472F58C00B6F8C6 /* UIDebugItem.swift in Sources */,
-				37C7D0312472F58C00B6F8C6 /* Application.swift in Sources */,
-				37C7D0332472F58C00B6F8C6 /* Kuda.swift in Sources */,
-				37C7D02D2472F58C00B6F8C6 /* ViewControllerDebugItem.swift in Sources */,
-				37C7D02B2472F58C00B6F8C6 /* ExitDebugItem.swift in Sources */,
-				37C7D0292472F58C00B6F8C6 /* CaseSelectableDebugItem.swift in Sources */,
-				37C7D0272472F58C00B6F8C6 /* InAppDebuggerViewController.swift in Sources */,
-				37C7D0282472F58C00B6F8C6 /* InAppDebugger.swift in Sources */,
-				37C7D0322472F58C00B6F8C6 /* ContainerView.swift in Sources */,
-				37C7D02C2472F58C00B6F8C6 /* FeedbackDebugItem.swift in Sources */,
-				37C7D0302472F58C00B6F8C6 /* Error.swift in Sources */,
-				37C7D02F2472F58C00B6F8C6 /* DebugItem.swift in Sources */,
+				373CF1BF2486A032006126B9 /* DebugItem.swift in Sources */,
+				373CF1AF2486A031006126B9 /* InfoDebugItem.swift in Sources */,
+				373CF1B42486A031006126B9 /* ExitDebugItem.swift in Sources */,
+				373CF1BB2486A031006126B9 /* Application.swift in Sources */,
+				373CF1BC2486A031006126B9 /* ContainerView.swift in Sources */,
+				373CF1AD2486A031006126B9 /* InAppDebuggerInteractor.swift in Sources */,
+				373CF1B32486A031006126B9 /* UIDebugItem.swift in Sources */,
+				373CF1C22486A032006126B9 /* ContainerView.swift in Sources */,
+				373CF1B92486A031006126B9 /* DebugItem.swift in Sources */,
+				373CF1B02486A031006126B9 /* Application.swift in Sources */,
+				373CF1BE2486A032006126B9 /* ViewControllerDebugItem.swift in Sources */,
+				373CF1A92486A031006126B9 /* PinSupplementaryView.swift in Sources */,
+				373CF1B12486A031006126B9 /* Error.swift in Sources */,
+				373CF1A72486A031006126B9 /* ListItemCollectionViewCell.swift in Sources */,
+				373CF1A62486A031006126B9 /* Kuda.swift in Sources */,
+				373CF1AB2486A031006126B9 /* ListLayout.swift in Sources */,
+				373CF1B22486A031006126B9 /* CaseSelectableDebugItem.swift in Sources */,
+				373CF1AE2486A031006126B9 /* HeaderSupplementaryView.swift in Sources */,
+				373CF1B72486A031006126B9 /* InfoDebugItem.swift in Sources */,
+				373CF1BD2486A031006126B9 /* UIDebugItem.swift in Sources */,
+				373CF1AC2486A031006126B9 /* InAppDebugger.swift in Sources */,
+				373CF1B52486A031006126B9 /* FeedbackDebugItem.swift in Sources */,
+				373CF1B82486A031006126B9 /* CaseSelectableDebugItem.swift in Sources */,
+				373CF1B62486A031006126B9 /* ViewControllerDebugItem.swift in Sources */,
+				373CF1A82486A031006126B9 /* InAppDebuggerPresenter.swift in Sources */,
+				373CF1BA2486A031006126B9 /* Error.swift in Sources */,
+				373CF1C12486A032006126B9 /* FeedbackDebugItem.swift in Sources */,
+				373CF1C02486A032006126B9 /* ExitDebugItem.swift in Sources */,
+				373CF1AA2486A031006126B9 /* InAppDebuggerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

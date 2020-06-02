@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class HeaderSupplementaryView: UICollectionReusableView {
     static var elementKind: String = "HeaderSupplementaryView"
