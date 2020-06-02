@@ -8,7 +8,7 @@
 import UIKit
 
 public struct ViewControllerDebugItem<T: UIViewController>: DebugItem {
-    public var debugItemTitle: String { "Preview " + String(describing: T.self) }
+    public var debugItemTitle: String { "Present " + String(describing: T.self) }
     public var factory: (() -> T)
     
     public func didSelectedDebuggerItem(_ controller: UIViewController, completionHandler: @escaping (Result<String?, Error>) -> Void) {
